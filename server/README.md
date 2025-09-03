@@ -19,26 +19,5 @@ It connects with the React Native (Expo) frontend in the `mobile/` folder.
    npm start
 
 
-# Dependencies
-node_modules/
-
-# Environment variables
-.env
-.env.*
-!.env.example
-
-# Build outputs
-dist/
-build/
-
-# Logs
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-
-# OS-specific
-.DS_Store
-Thumbs.db
-
 
 
