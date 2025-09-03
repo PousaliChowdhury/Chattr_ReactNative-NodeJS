@@ -15,13 +15,13 @@ export default function App() {
         <Stack.Screen name="Login" component={LoginScreen} options={{ headerShown: false }} />
         <Stack.Screen name="Register" component={RegisterScreen} options={{ title: 'Create account', headerTitleAlign: "center", }} />
         <Stack.Screen name="Home" component={HomeScreen} options={{
-    title: "Chats",   // 👈 change text
+    title: "Chats",   
     headerTitleStyle: {
       fontSize: 20,
       fontWeight: "700",
-      color: "#111827", // dark gray / black
+      color: "#111827",
     },
-    headerTitleAlign: "center", // 👈 centers the text
+    headerTitleAlign: "center", 
   }}/>
         <Stack.Screen
           name="Chat"
