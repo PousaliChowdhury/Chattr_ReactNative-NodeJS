@@ -2,7 +2,7 @@ import { create } from 'zustand';
 import socketIOClient  from 'socket.io-client';
 import { api, setAuthToken } from './api';
 
-const SOCKET_URL = process.env.SOCKET_URL || 'http://192.168.0.101:7000';
+const SOCKET_URL = process.env.SOCKET_URL || 'http://192.x.x.x:4000';
 
 export const useStore = create((set, get) => ({
   user: null,
