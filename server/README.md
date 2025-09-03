@@ -17,7 +17,3 @@ It connects with the React Native (Expo) frontend in the `mobile/` folder.
 
 3. ```bash
    npm start
-
-
-
-
