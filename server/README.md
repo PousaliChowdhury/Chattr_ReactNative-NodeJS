@@ -12,9 +12,11 @@ It connects with the React Native (Expo) frontend in the `mobile/` folder.
    ```bash
    npm install
 
-2. npm nodemon index.js
+2. ```bash
+   npm nodemon index.js
 
-3. npm start
+3. ```bash
+   npm start
 
 
 # Dependencies
